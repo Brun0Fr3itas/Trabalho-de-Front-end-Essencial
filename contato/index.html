@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Nome do Trabalho</title>
+</head>
+<body>
+    <!--menu de navegação (todos os arquivos HTML terão nas suas páginas)-->
+    <!--<header>-->
+        <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="index.html">Contato</a></li>
+        </ul>
+    </nav>
+    <!--</header>-->
+    <main>
+        <h1>Contato</h1>
+        <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+        <form id="contato">
+            <div class="field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+            <div class="field">
+                <p>Assunto:</p>
+                <div class="options">
+                    <label><input type="radio" name="assunto" value="Dúvida" required> Dúvida</label>
+                    <label><input type="radio" name="assunto" value="Sugestão"> Sugestão</label>
+                    <label><input type="radio" name="assunto" value="Reclamação"> Reclamação</label>
+                    <label><input type="radio" name="assunto" value="Outro"> Outro</label>
+                </div>
+            </div>
+            <div class="field">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- área para exibir a resposta após o envio do formulário (inicialmente oculta) 
+        <div id="resposta">
+            Mensagem enviada com sucesso! Entraremos em contato em breve.
+        </div> -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
