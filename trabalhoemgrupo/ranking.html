@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranking das 48 Seleções – Copa do Mundo 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="ranking.css" />
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <header class="page-header">
+      <div class="section-label">Copa do Mundo 2026</div>
+      <h1 class="page-title">RANKING DAS <span>48</span> SELEÇÕES</h1>
+      <p class="page-subtitle">Classificação oficial FIFA — busque pelo nome ou filtre por continente.</p>
+      <div class="title-bar"><div class="title-bar-dot"></div></div>
+    </header>
+
+    <section class="controls">
+      <div class="search-wrapper">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="search-input" placeholder="Buscar seleção pelo nome…" />
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Todas</button>
+        <button class="filter-btn" data-filter="CONMEBOL">América do Sul</button>
+        <button class="filter-btn" data-filter="UEFA">Europa</button>
+        <button class="filter-btn" data-filter="CAF">África</button>
+        <button class="filter-btn" data-filter="CONCACAF">Américas N/C</button>
+        <button class="filter-btn" data-filter="AFC">Ásia</button>
+        <button class="filter-btn" data-filter="OFC">Oceania</button>
+      </div>
+    </section>
+
+    <p class="count-bar">Exibindo <strong id="count">48</strong> seleções</p>
+
+    <div id="teams-grid" class="grid-container"></div>
+
+  </div>
+
+  <script src="ranking.js"></script>
+</body>
+</html>
