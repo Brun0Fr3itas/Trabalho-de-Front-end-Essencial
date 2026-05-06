@@ -5,11 +5,11 @@
 
 ## 👥 Integrantes do Grupo
 
-🧑‍💻 Bruno da Silva de Souza Freitas
-🧑‍💻 Bruno Vitor Cordeiro Gomes
-🧑‍💻 João Vitor Clemente Ferreira
-🧑‍💻 Paulo César Ferreira Vale Neto
-🧑‍💻 Pedro Octávio Maciel Gonçalves
+- 🧑‍💻 Bruno da Silva de Souza Freitas
+- 🧑‍💻 Bruno Vitor Cordeiro Gomes
+- 🧑‍💻 João Vitor Clemente Ferreira
+- 🧑‍💻 Paulo César Ferreira Vale Neto
+- 🧑‍💻 Pedro Octávio Maciel Gonçalves
 
 
 ## 📌 Sobre o Projeto
