@@ -1,5 +1,5 @@
 
-    const target = new Date('2026-06-11T21:00:00-03:00');
+    const target = new Date('2026-06-11T17:00:00-03:00');
 
     function pad(n) { return String(n).padStart(2, '0'); }
 
