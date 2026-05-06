@@ -2,19 +2,15 @@
 
 > Projeto desenvolvido em equipe como parte da disciplina de **Desenvolvimento Front End**.
 
----
 
 ## 👥 Integrantes do Grupo
 
-| |
-|---|
-| 🧑‍💻 Bruno da Silva de Souza Freitas |
-| 🧑‍💻 Bruno Vitor Cordeiro Gomes |
-| 🧑‍💻 João Vitor Clemente Ferreira |
-| 🧑‍💻 Paulo César Ferreira Vale Neto |
-| 🧑‍💻 Pedro Octávio Maciel Gonçalves |
+🧑‍💻 Bruno da Silva de Souza Freitas
+🧑‍💻 Bruno Vitor Cordeiro Gomes
+🧑‍💻 João Vitor Clemente Ferreira
+🧑‍💻 Paulo César Ferreira Vale Neto
+🧑‍💻 Pedro Octávio Maciel Gonçalves
 
----
 
 ## 📌 Sobre o Projeto
 
@@ -26,16 +22,14 @@ Site temático da **Copa do Mundo FIFA 2026** 🏆 com foco na 🇧🇷 **Seleç
 - 📬 **Contato** — Formulário para entrar em contato com a equipe
 - 🏆 **Ranking** — Classificação e desempenho das seleções na competição
 
----
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 
 
----
 
 ## 📋 Funcionalidades
 
@@ -45,10 +39,7 @@ Site temático da **Copa do Mundo FIFA 2026** 🏆 com foco na 🇧🇷 **Seleç
 - [ ] ✅ Funcionalidades interativas
 
 
----
 
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins **educacionais**.
-
----
